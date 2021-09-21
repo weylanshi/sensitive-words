@@ -7,7 +7,7 @@ DFA 全称为：Deterministic Finite Automaton，即确定有穷自动机。其�
 ![](https://img.weypage.com/20210921183050.png)
 简单点说就是，它是是通过 event 和当前的 state 得到下一个 state，即 event + state= nextstate。理解为系统中有多个节点，通过传递进入的 event，来确定走哪个路由至另一个节点，而节点是有限的。
 
-### 二、 DEA 算法实践敏感词过滤
+### 二、 DFA 算法实践敏感词过滤
 1. 敏感词库构造
    以王八蛋和王八羔子两个敏感词来进行描述，首先构建敏感词库，该词库名称为SensitiveMap，这两个词的二叉树构造为：
    
